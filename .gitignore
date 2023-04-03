@@ -1,0 +1,41 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.dylib
+*.db
+*.sqlite3
+*.log
+
+# Virtual environments
+venv/
+env/
+.virtualenv/
+
+# Poetry
+# /poetry.lock
+
+# Jupyter
+.ipynb_checkpoints
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# MacOS
+.DS_Store
+
+# Log files
+logs/
+*.log
+
+# # Environment variable files
+# .env*
+# !*.sample

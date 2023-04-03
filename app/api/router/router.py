@@ -11,3 +11,17 @@ api_router = APIRouter()
 async def preview_template(request: Request):
     content = "Hello, world!"
     return templates.TemplateResponse("email_templates/preview.html", {"request": request, "content": content})
+
+
+@api_router.get("/send_email_ses")
+async def send_email_ses(request: Request):
+    content = "Hello, world!"
+    return {}
+
+@api_router.get("/send_email_ses_sqs")
+async def send_email_ses_sqs(request: Request):
+    content = "Hello, world!"
+    return {}
+
+
+    

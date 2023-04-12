@@ -1,5 +1,5 @@
 import json
-from ses import send_email
+from app.services.ses import send_email
 def lambda_handler(event, context):
     print(event)
     try:

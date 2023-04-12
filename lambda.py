@@ -1,0 +1,1 @@
+from app.services.lambda import lambda_handler

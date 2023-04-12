@@ -63,4 +63,4 @@ def send_email(RECIPIENT):
         print("Email sent! Message ID:"),
         print(response['MessageId'])
 
-send_email("vishnu123sai@gmail.com")
+# send_email("vishnu123sai@gmail.com")

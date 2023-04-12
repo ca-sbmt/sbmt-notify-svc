@@ -8,7 +8,7 @@ def lambda_handler(event, context):
 
 
 
-def read_and_delete_event_from_queue(event, )
+def read_and_delete_event_from_queue(event, context )
     queue_url = 'SQS_QUEUE_URL'
 
     # Receive message from SQS queue

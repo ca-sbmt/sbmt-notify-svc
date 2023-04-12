@@ -1,1 +1,1 @@
-from app.services.lambda import lambda_handler
+from sbmt-notify-svc.app.services.lambda import lambda_handler

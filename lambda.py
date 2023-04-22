@@ -1,3 +1,2 @@
-from app.services.awslambda_code import lambda_handler
-
-lambda_handler({},{})
+from app.services.awslambda import lambda_handler
+from app.services.ses import lambda_send_email_without_sqs

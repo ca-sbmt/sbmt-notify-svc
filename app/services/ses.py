@@ -64,3 +64,11 @@ def send_email(RECIPIENT):
         print(response['MessageId'])
 
 # send_email("vishnu123sai@gmail.com")
+
+def lambda_send_email_without_sqs(event, context):
+    if 'recipient' in event:
+        res = send_email(event['recipient'])
+        return res
+    else:
+        return None
+    

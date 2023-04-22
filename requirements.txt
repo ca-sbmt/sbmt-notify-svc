@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-dotenv
+aiomysql
+greenlet
+pymysql
+cryptography
+requests
+jinja2
+boto3
+mangum
